@@ -1,9 +1,14 @@
-﻿using System;
+﻿using QModManager.API.ModLoading;
 
 namespace FrozenLeviathanMod
 {
-    public class FrozenLeviathanMod
+    [QModCore]
+    public static class FrozenLeviathanMod
     {
-
+        [QModPatch]
+        public static void Entry()
+        {
+            UnityEngine.Debug.Log("Frozen leviathan mod successfully loaded!");
+        }
     }
 }

@@ -15,6 +15,9 @@
     <Reference Include="ECCLibrary">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\QMods\ECCLibrary\ECCLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="QModInstaller">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\BepInEx\plugins\QModManager\QModInstaller.dll</HintPath>
+    </Reference>
     <Reference Include="SMLHelper">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\QMods\SMLHelper_BZ\SMLHelper.dll</HintPath>
     </Reference>
