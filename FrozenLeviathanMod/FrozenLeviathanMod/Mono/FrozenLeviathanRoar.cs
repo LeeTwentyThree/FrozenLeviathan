@@ -71,12 +71,6 @@ namespace FrozenLeviathanMod.Mono
             var animator = creature.GetAnimator();
             animator.SetFloat(_randomParameter, Random.value);
             animator.SetTrigger(_roarParameter);
-            Invoke(nameof(CamShake), 5f);
-        }
-
-        private void CamShake()
-        {
-            MainCameraControl.main.ShakeCamera(3f, 9f, MainCameraControl.ShakeMode.Quadratic, 2f);
         }
     }
 }

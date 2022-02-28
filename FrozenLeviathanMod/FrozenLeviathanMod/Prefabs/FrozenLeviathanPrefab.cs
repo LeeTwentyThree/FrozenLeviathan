@@ -47,7 +47,7 @@ namespace FrozenLeviathanMod.Prefabs
                 for(int i = 0; i < r.materials.Length; i++)
                 {
                     r.materials[i].EnableKeyword("MARMO_SPECMAP");
-                    r.materials[i].SetColor(ShaderPropertyID._Color, new Color(3f, 3f, 3f));
+                    r.materials[i].SetColor(ShaderPropertyID._Color, new Color(2f, 2f, 2f));
                     r.materials[i].SetColor("_SpecColor", new Color(0.5f, 0.5f, 0.5f));
                     r.materials[i].SetColor("_Shininess", new Color(0.5f, 0.5f, 0.5f));
                 }

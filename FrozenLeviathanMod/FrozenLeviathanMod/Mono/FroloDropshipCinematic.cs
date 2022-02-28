@@ -36,7 +36,7 @@ namespace FrozenLeviathanMod.Mono
             _frozenLeviathan.GetComponent<Rigidbody>().isKinematic = true;
             yield return new WaitForSeconds(8f);
             _frozenLeviathan.roar.PlayRoar();
-            yield return new WaitForSeconds(12f);
+            yield return new WaitForSeconds(13f);
             _frozenLeviathan.GetComponent<Rigidbody>().isKinematic = false;
             var walk = _frozenLeviathan.GetComponent<WalkBehaviour>();
             walk.WalkTo(Player.main.transform.position, 30f);
